@@ -1,13 +1,49 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="{).9OnjqJH5S}%%q0_Sl" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="msZAQ)oZxoKmD(wQD`p="><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_operation" id="E06n!mG(KA2s1VE{8*.e"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="s8,Ss4_%7j;NW@c{*HcA"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="Tn@E!AhzNHq.0HX]imKn"/></value><value name="B"><shadow type="math_number" id="xI[i(Q|!1}!HJL7W6vZP"><field name="NUM">315</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="b:{/b;3A9a/|#?%JmTgd"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="k7$B:7P[zt_=VNjOL^=T"/></value><value name="B"><shadow type="math_number" id="R_sf{AP9![xU|L+X=/r="><field name="NUM">45</field></shadow></value></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="ygCD5O)_coX?W%jlCzc,"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="-d!-QiZM,b65tpAs;P6j" x="-63" y="-724"><statement name="HANDLER"><block type="controls_if" id="bHWniGXg{}~S,#g(-ud;"><mutation elseif="6" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_operation" id="D`]$$X#aXmbrm~u|-%DJ"><field name="OP">AND</field><value name="A"><block type="logic_compare" id=".JzwqFVwBn#|T@d/w|+="><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="{g_Ge{-0$t$Fmm.qSUiJ"/></value><value name="B"><shadow type="math_number" id="I@i0oCUO1K*i:`T_.3fO"><field name="NUM">338</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="4jPODKX{pn:+C^rjRUn*"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="e0HlE{B3GR7h-62q=zZz"/></value><value name="B"><shadow type="math_number" id="sr39o|h9Bjr,N3u/@PSl"><field name="NUM">23</field></shadow></value></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="e.HE.8kMIZXg]zrVe?Kk"><field name="LEDS">`
         . . # . . 
         . . # . . 
         . . # . . 
         . # # # . 
         # # # # #
-        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="kUZo}=2nJiXC@{__{XXu"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="?R,uI:s`gP!@W}(d4]!`"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="EpQw8_K{BUiWsRNL;V6w"/></value><value name="B"><shadow type="math_number" id="!zh!Gkv#Nxw97.BDlBwz"><field name="NUM">340</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="EV1_qzzVZB9x_Iu8?ueW"><field name="LEDS">`
+        `</field></block></statement><value name="IF1"><block type="logic_operation" id="Z%Nm1RDlwY-z$?CI_~n0"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="FG9`FC2!FEcq;`:=2j)Y"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="?,R](l2EVMX6CHzLH}~D"/></value><value name="B"><shadow type="math_number" id="@E%0BTd;3VrlwD%pZ827"><field name="NUM">22</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="xm#NebHvH3)C2_sODwZg"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="87`!(qwEECQEob{l~Qz]"/></value><value name="B"><shadow type="math_number" id="b3S_S~ymj!(N+m#3~|Bd"><field name="NUM">68</field></shadow></value></block></value></block></value><statement name="DO1"><block type="device_show_leds" id="YAt.|Z*Xf5-JX!91ks0w"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        # # # . . 
+        # # # . . 
+        # # # . .
+        `</field></block></statement><value name="IF2"><block type="logic_operation" id="~Q1yyq0IA9mAW7y/2CiW"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="{}QCOi~haSA2/EpSM99C"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="HU:8E-z4$l;`+kIsRyRj"/></value><value name="B"><shadow type="math_number" id="{WKF]ac!rlO0r$Z+y`]$"><field name="NUM">67</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="c10l]4VD.9TTJ]s1WfLQ"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="e(Ws!o9$85PnC4+c1O,h"/></value><value name="B"><shadow type="math_number" id="cxZ[*]=jkI%*DZaa!Xon"><field name="NUM">113</field></shadow></value></block></value></block></value><statement name="DO2"><block type="device_show_leds" id="|rJD2zJDO~64rR%kF+S*"><field name="LEDS">`
+        # . . . . 
+        # # . . . 
+        # # # # # 
+        # # . . . 
+        # . . . .
+        `</field></block></statement><value name="IF3"><block type="logic_operation" id="Dm4_uvf=(|jM;2t{]`Y)"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="_B]O[({RJ]Aht|#lYdT{"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="_o0T@ddty9lyGu]{-;o}"/></value><value name="B"><shadow type="math_number" id="*:j]Lq3CAO~e-|9oWQy5"><field name="NUM">112</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="]]?E(9_z`WNZcZkyQa:k"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="SqsA~!PgOV{NamD#oaNF"/></value><value name="B"><shadow type="math_number" id="vo6+)*s_!BnCeh5JjU#6"><field name="NUM">158</field></shadow></value></block></value></block></value><statement name="DO3"><block type="device_show_leds" id="9^(U|*1jTI$IPqX.j-GL"><field name="LEDS">`
+        # # # . . 
+        # # # . . 
+        # # # . . 
+        . . . # . 
+        . . . . #
+        `</field></block></statement><value name="IF4"><block type="logic_operation" id="(LD4%:JE(?pQ$ol3OW~9"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="ZG]5WB:z+ok5rWChw[os"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="n$H1IPtUB*)u*Z3Ohsi~"/></value><value name="B"><shadow type="math_number" id="Yv;w$i-.8_1otf@P$f`A"><field name="NUM">157</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="|HFfI%l#royZ%e!g3x,^"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="?.=$`E%PIbhY(.DPqF!w"/></value><value name="B"><shadow type="math_number" id="*SP|yA08ai^6/STN@K_7"><field name="NUM">203</field></shadow></value></block></value></block></value><statement name="DO4"><block type="device_show_leds" id="`Si!sj+.H]wh{fg)tJQ2"><field name="LEDS">`
+        # # # # # 
         . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><value name="IF5"><block type="logic_operation" id="c20)u_[p9lEREcmDbMYC"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="[coGHsNd[b3xn^B6P7;+"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="E+e?DW:8e`P,,$i4M.Rb"/></value><value name="B"><shadow type="math_number" id="0j=xWHYxN`Zx=%rGau:4"><field name="NUM">202</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="xc$WU{q$L^?qTc5e~_hL"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="}rNiQT/?Kb]V)iojm},N"/></value><value name="B"><shadow type="math_number" id="2/[lQ{3EYig{4TnGqij4"><field name="NUM">248</field></shadow></value></block></value></block></value><statement name="DO5"><block type="device_show_leds" id="T0F}ud_)eHK%7V9N%NTe"><field name="LEDS">`
+        . . # # # 
+        . . # # # 
+        . . # # # 
+        . # . . . 
+        # . . . .
+        `</field></block></statement><value name="IF6"><block type="logic_operation" id="K{]Jpx1VVn*3t/z$K.oe"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="K6{FOYro]ty?AJv9M;j5"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="Q5c~o}#Rl=haa/NqA;zJ"/></value><value name="B"><shadow type="math_number" id=";t2u?{.Aob5Hs46h((6$"><field name="NUM">247</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="W/zjOK@u.s^9,g{Ve@X$"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="-mJKm:CK~1;dz{-dDe9("/></value><value name="B"><shadow type="math_number" id="0AV0j6#oLEu_;aY,-6(k"><field name="NUM">293</field></shadow></value></block></value></block></value><statement name="DO6"><block type="device_show_leds" id="hgg;]{EzbZ/6hui2WcNt"><field name="LEDS">`
+        . . . . # 
+        . . . # # 
         # # # # # 
-        # # . # # 
-        # # # # # 
-        # # # # #
-        `</field></block></statement></block></statement></block></statement></block></xml>
+        . . . # # 
+        . . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="AmUlyfORqs^~TtO=M0-,"><field name="LEDS">`
+        # . . . . 
+        . # . . . 
+        . . # # # 
+        . . # # # 
+        . . # # #
+        `</field></block></statement></block></statement></block></xml>
